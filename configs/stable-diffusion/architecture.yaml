@@ -77,7 +77,7 @@ data:
     train:
       target: ldm.data.simple.hf_dataset
       params:
-        name: rrustom/architecture2022small
+        name: rrustom/architecture2022clean
         image_transforms:
           - target: torchvision.transforms.Resize
             params:
